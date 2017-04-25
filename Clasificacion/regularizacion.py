@@ -75,6 +75,7 @@ def clasificacion(X, y, alpha = 0.5, diferenciaMinima = 0.0001):
         if (math.fabs(error - errorAnterior) < diferenciaMinima):
             break
         errorAnterior = error
+
     #print(h(X))
 
 #clasificacion(lista, salidas)
